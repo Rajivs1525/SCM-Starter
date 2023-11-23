@@ -120,37 +120,42 @@ export default function HomePage() {
   <style jsx>{`
     .container {
       text-align: center;
-      background-color: #2c3e50; /* Dark blue-gray background */
-      color: #ecf0f1; /* Light gray text */
-      padding: 20px; /* Add padding for better spacing */
+      background-color: 
+      color: #ecf0f1; 
+      padding: 20px; 
     }
 
     h1 {
-      color: #f39c12; /* Orange header text */
-      margin-bottom: 20px; /* Add margin below the header */
+      color: #f39c12; 
+      margin-bottom: 20px;
     }
     h2{
-      color: #f39c12; /* Orange header text */
-      margin-bottom: 20px; /* Add margin below the header */
+      color: #f39c12; 
+      margin-bottom: 20px; 
     }
 
     p {
-      margin-bottom: 10px; /* Add margin below paragraphs */
+      margin-bottom: 10px; 
     }
 
     input {
-      margin-bottom: 10px; /* Add margin below the input field */
+      margin-bottom: 10px;
     }
 
     button {
-      background-color: #3498db; /* Blue button background */
-      color: #ffffff; /* White button text */
+      background-color: #3498db; 
+      color: #ffffff; 
       border: none;
       padding: 10px 20px;
       cursor: pointer;
     }
   `}</style>
 </main>
+
+  
+  );
+}
+
 
   
   );
