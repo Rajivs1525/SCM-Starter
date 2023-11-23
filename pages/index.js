@@ -19,7 +19,7 @@ export default function HomePage() {
 
     if (ethWallet) {
       const accounts = await ethWallet.request({ method: "eth_accounts" });
-      handleAccount(accounts[0]); // Use the first account if available
+      handleAccount(accounts[0]); 
     }
   };
 
@@ -39,9 +39,7 @@ export default function HomePage() {
     }
 
     const accounts = await ethWallet.request({ method: "eth_requestAccounts" });
-    handleAccount(accounts[0]); // Use the first account if available
-
-    // Once wallet is set, get a reference to the deployed contract
+    handleAccount(accounts[0]); 
     getATMContract();
   };
 
